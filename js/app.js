@@ -951,7 +951,7 @@ const namaTamu = () => {
     name
   )}</h2>`;
 
-  document.getElementById("form-nama").value = escapeHtml(name);
+  //   document.getElementById("form-nama").value = escapeHtml(name);
   document.getElementById("nama-tamu").appendChild(div);
 };
 
